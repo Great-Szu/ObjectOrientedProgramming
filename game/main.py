@@ -7,11 +7,11 @@ print(tim.lives)
 tim.lives -= 1
 print(tim)
 
-tim.lives -= 1
+tim.level = 5
 print(tim)
 
-tim.lives -= 1
+tim.level -= 2
 print(tim)
 
-tim.lives -= 1
+tim.level -= 4
 print(tim)
