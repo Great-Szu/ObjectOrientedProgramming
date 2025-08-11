@@ -28,6 +28,10 @@ print("-" * 40)
 another_troll.take_damage(30)
 print(another_troll)
 
-while vampire1.alive:
-    vampire1.take_damage(1)
-    print(vampire1)
+# while vampire1.alive:
+#     vampire1.take_damage(1)
+#     print(vampire1)
+
+vampire1.lives = 0
+vampire1.hit_points = 1
+print(vampire1)
