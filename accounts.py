@@ -10,10 +10,10 @@ class Account:
         return utc_time
 
     def __init__(self, name, balance):
-        self._name = name
+        self.name = name
         self.__balance = balance
         self._transaction_list = [(Account._current_time(), balance, balance)]
-        print("account created for " + self._name)
+        print("account created for " + self.name)
         self.show_balance()
 
     def deposit(self, amount):
